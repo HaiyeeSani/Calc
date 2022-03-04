@@ -39,6 +39,7 @@ def again():
         if calc_again.upper() == 'Y':
                 main()
 
+<<<<<<< Updated upstream
         elif calc_again.upper() == 'N':
                 sys.exit('See you later.')
         else:
@@ -82,3 +83,41 @@ def main():
         
                 
 main()
+=======
+addition=number1+number2
+print(f"The addition for the two values is equal to: ,{addition}")
+
+subtraction=number1-number2
+print(f"The subtraction for the two values is equal to: ,{subtraction}")
+
+multiplication=number1*number2
+print(f"The multiplication for the two values is equal to: ,{multiplication}")
+
+division=number1/number2
+print(f"The division for the two values is equal to: ,{division}")
+
+umber1=int(input("Insert the first value"))
+number2=int(input("Insert the second value"))
+
+select = int(input("Select operations form 1, 2, 3, 4 :"))
+
+addition=number1+number2
+subtraction=number1-number2
+multiplication=number1*number2
+division=number1/number2
+
+
+if select == 1:
+       print(f"The addition for the two values is equal to: ,{addition}")
+
+elif select == 2:
+       print(f"The subraction for the two values is equal to: ,{subtraction}")
+
+elif select == 3:
+       print(f"The multiplication for the two values is equal to: ,{multiplication}")
+
+elif select == 4:
+       print(f"The division for the two values is equal to: ,{division}")
+else:
+        print("invalid input")
+>>>>>>> Stashed changes
